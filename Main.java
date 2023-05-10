@@ -11,7 +11,7 @@ public class Main
     public static void main(String args[])
     {
         int summe = 0;
-        int ob = 10;
+        int oberenGrenze = 10;
         for(int i= 1 ; i <= 10 ; i++)
         {
             summe = summe +i;
@@ -19,7 +19,7 @@ public class Main
         }
         
         int mult = 1;
-        for(int i = 2 ; i <= ob ; ++i)
+        for(int i = 2 ; i <= oberenGrenze ; ++i)
         {
             mult *=i;
         
