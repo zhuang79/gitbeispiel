@@ -1,0 +1,31 @@
+git coomit -m "Ausgabe von Summe und Multipl"
+git log --oneline
+git checkout master
+git add .
+git commit -m "Nutzung von zusammengesetzten Operatoren"
+git log --oneline --graph
+git log --oneline --graph --all
+git branch -a
+git merge feature
+git checkout feature
+git merge feature
+git branch -a
+git add .
+git commit -m "Variable ob mit 10 für die Grenze"
+git log --oneline --graph --all
+git checkout master
+git add.
+git commit -m "Variable obrereGrenz mit dem Wert 20 für die oberen Grenze"
+git log --oneline --grahp --all
+git merge feature
+git status
+git add .
+git commit -m "konflik wurde behoben : Variablename obereGrenze"
+git log --onelibe --graph --all
+git reset --hard(tuihuicaozuo)
+git add .
+git commit -m "Fehlerafter Code"
+git log --oneline --grahp --all
+git reset  --hard
+           --mixed
+           --soft
