@@ -11,7 +11,7 @@ public class Main
     public static void main(String args[])
     {
         int summe = 0;
-        int oberenGrenze = 10;
+        int oberenGrenze = 50;
         for(int i= 1 ; i <= 10 ; i++)
         {
             summe = summe +i;
