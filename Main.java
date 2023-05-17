@@ -18,7 +18,7 @@ public class Main
         
         }
         
-        int mult = 1;
+        double mult = 1;
         for(int i = 2 ; i <= oberenGrenze ; ++i)
         {
             mult *=i;
